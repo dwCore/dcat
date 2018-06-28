@@ -1,0 +1,28 @@
+{
+  "name": "@dwcore/dcat",
+  "version": "0.1.1",
+  "description": "Library That Enables The `cat` Command For dDatabases.",
+  "main": "index.js",
+  "bin": {
+    "dcat": "cli.js"
+  },
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@ddatabase/core": "ddatabase/core#master",
+    "@ddrive/core": "ddrive/core#master",
+    "@dwcore/channel": "dwcore/channel#master",
+    "@dwcore/dws2": "dwcore/dws2#master",
+    "@dwcore/dwsd": "dwcore/dwsd#master",
+    "@dwcore/rem": "dwcore/rem#master",
+    "@flockcore/presets": "flockcore/presets#master",
+    "@flockcore/revelation": "flockcore/revelation#master",
+    "append-tree": "^2.4.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
