@@ -1,6 +1,6 @@
 {
   "name": "@dwcore/dcat",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Library That Enables The `cat` Command For dDatabases.",
   "main": "index.js",
   "bin": {
@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@ddatabase/core": "ddatabase/core#master",
-    "@ddrive/core": "ddrive/core#master",
+    "@ddrive/core": "ddrives/core#master",
     "@dwcore/channel": "dwcore/channel#master",
     "@dwcore/dws2": "dwcore/dws2#master",
     "@dwcore/dwsd": "dwcore/dwsd#master",
