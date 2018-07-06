@@ -1,6 +1,6 @@
 {
   "name": "@dwcore/dcat",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Library That Enables The `cat` Command For dDatabases.",
   "main": "index.js",
   "bin": {
@@ -12,14 +12,14 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@ddatabase/core": "ddatabase/core#master",
-    "@ddrive/core": "ddrives/core#master",
-    "@dwcore/channel": "dwcore/channel#master",
-    "@dwcore/dws2": "dwcore/dws2#master",
-    "@dwcore/dwsd": "dwcore/dwsd#master",
+    "@ddatabase/core": "*",
+    "@ddrive/core": "*",
+    "@dwcore/channel": "*",
+    "@dwcore/dws2": "*",
+    "@dwcore/dwsd": "*",
     "@dwcore/rem": "*",
-    "@flockcore/presets": "flockcore/presets#master",
-    "@flockcore/revelation": "flockcore/revelation#master",
+    "@flockcore/presets": "*",
+    "@flockcore/revelation": "*",
     "append-tree": "^2.4.1"
   },
   "publishConfig": {
