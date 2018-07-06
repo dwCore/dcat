@@ -1,5 +1,5 @@
-var ddatabase = require('ddatabase')
-var ddrive = require('ddrive/lib/messages.js')
+var ddatabase = require('@ddatabase/core')
+var ddrive = require('@ddrive/core/lib/messages.js')
 var dWebChannel = require('@dwcore/channel')
 var dWebFlockPresets = require('@flockcore/presets')
 var dwrem = require('@dwcore/rem')
@@ -39,7 +39,7 @@ module.exports = function (key) {
           } catch (e) {
             return next(null, obj)
           }
-          if (idx.type === '@ddrive/core') {
+          if (idx.type === 'ddrive') {
             isDistributedDrive = true
             return next(null, idx)
           } else {
